@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7040665E06FC657F0733F32A /* libPods-BuryingPoint.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E67F44854BABED93895684B3 /* libPods-BuryingPoint.a */; };
+		E04396862264531E001B3902 /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E04396852264531E001B3902 /* TestModel.m */; };
+		E05EC60F22487C090043B18C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E05EC60E22487C090043B18C /* AppDelegate.m */; };
+		E05EC61222487C090043B18C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E05EC61122487C090043B18C /* ViewController.m */; };
+		E05EC61522487C090043B18C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E05EC61322487C090043B18C /* Main.storyboard */; };
+		E05EC61722487C0A0043B18C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E05EC61622487C0A0043B18C /* Assets.xcassets */; };
+		E05EC61A22487C0A0043B18C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E05EC61822487C0A0043B18C /* LaunchScreen.storyboard */; };
+		E05EC61D22487C0A0043B18C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E05EC61C22487C0A0043B18C /* main.m */; };
+		E0B2903B228C0BF70078859A /* BuryingPointAliLogGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B2903A228C0BF70078859A /* BuryingPointAliLogGroup.m */; };
+		E0B2903F228C14EE0078859A /* Sls.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B2903D228C14ED0078859A /* Sls.pbobjc.m */; };
+		E0B29040228C14EE0078859A /* sls.proto in Sources */ = {isa = PBXBuildFile; fileRef = E0B2903E228C14ED0078859A /* sls.proto */; };
+		E0B29048228C1F020078859A /* BuryingPointTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B29047228C1F020078859A /* BuryingPointTests.m */; };
+		E0B29056228CEF300078859A /* BuryingPointDBTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B29055228CEF300078859A /* BuryingPointDBTest.m */; };
+		E0B29060228D78E10078859A /* NSData+BuryingPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B2905F228D78E10078859A /* NSData+BuryingPoint.m */; };
+		E0B29063228D7B600078859A /* NSString+BuryingPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B29062228D7B600078859A /* NSString+BuryingPoint.m */; };
+		E0B3881C2267216500C3502A /* BuryingPointLogUploadStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B387EC2267216500C3502A /* BuryingPointLogUploadStrategy.m */; };
+		E0B3881D2267216500C3502A /* BuryingPointUploadPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B387ED2267216500C3502A /* BuryingPointUploadPlugin.m */; };
+		E0B388252267216500C3502A /* MethodSwizzingPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B388002267216500C3502A /* MethodSwizzingPlugin.m */; };
+		E0B388282267216500C3502A /* BuryingPointEventModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B388062267216500C3502A /* BuryingPointEventModel.m */; };
+		E0B388292267216500C3502A /* BuryingPointRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B388082267216500C3502A /* BuryingPointRequestModel.m */; };
+		E0B3882A2267216500C3502A /* BuryingPointBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B3880A2267216500C3502A /* BuryingPointBaseModel.m */; };
+		E0B3882B2267216500C3502A /* BuryingPointPageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B3880D2267216500C3502A /* BuryingPointPageModel.m */; };
+		E0B3882E2267216500C3502A /* BuryingPointDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B388142267216500C3502A /* BuryingPointDataBase.m */; };
+		E0B3882F2267216500C3502A /* BuryingPointFMDB.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B388162267216500C3502A /* BuryingPointFMDB.m */; };
+		E0B3883F22677D9700C3502A /* BuryingPointConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B3883522677D9700C3502A /* BuryingPointConfigure.m */; };
+		E0B3884022677D9700C3502A /* BuryingPointMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B3883822677D9700C3502A /* BuryingPointMonitor.m */; };
+		E0B3884122677D9700C3502A /* BuryingPointInterfaceLogCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B3883B22677D9700C3502A /* BuryingPointInterfaceLogCache.m */; };
+		E0B3884322677D9700C3502A /* BuryingPointNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B3883D22677D9700C3502A /* BuryingPointNotification.m */; };
+		E0B38849226805F500C3502A /* BuryingPointServerTimestamp.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B38848226805F500C3502A /* BuryingPointServerTimestamp.m */; };
+		E0B388572268502600C3502A /* UINavigationController+BuryingPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B3884B2268502600C3502A /* UINavigationController+BuryingPoint.m */; };
+		E0B388582268502600C3502A /* UIControl+BuryingPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B3884F2268502600C3502A /* UIControl+BuryingPoint.m */; };
+		E0B388592268502600C3502A /* UIGestureRecognizer+BuryingPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B388522268502600C3502A /* UIGestureRecognizer+BuryingPoint.m */; };
+		E0B3885A2268502600C3502A /* UIViewController+BuryingPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B388532268502600C3502A /* UIViewController+BuryingPoint.m */; };
+		E0B3885B2268502600C3502A /* UITableView+BuryingPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B388542268502600C3502A /* UITableView+BuryingPoint.m */; };
+		E0B3885F2268583B00C3502A /* UIApplication+BuryingPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B3885E2268583B00C3502A /* UIApplication+BuryingPoint.m */; };
+		E0FDF4CB2256097E00351E3C /* SecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0FDF4CA2256097D00351E3C /* SecondController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0B2904A228C1F020078859A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E05EC60222487C080043B18C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E05EC60922487C090043B18C;
+			remoteInfo = BuryingPoint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		809356ACA9452811454CB5CD /* Pods-BuryingPoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuryingPoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-BuryingPoint/Pods-BuryingPoint.release.xcconfig"; sourceTree = "<group>"; };
+		E04396842264531E001B3902 /* TestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		E04396852264531E001B3902 /* TestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
+		E05EC60A22487C090043B18C /* BuryingPoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuryingPoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E05EC60D22487C090043B18C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E05EC60E22487C090043B18C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E05EC61022487C090043B18C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E05EC61122487C090043B18C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E05EC61422487C090043B18C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E05EC61622487C0A0043B18C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E05EC61922487C0A0043B18C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E05EC61B22487C0A0043B18C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E05EC61C22487C0A0043B18C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E0B29039228C0BF70078859A /* BuryingPointAliLogGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuryingPointAliLogGroup.h; sourceTree = "<group>"; };
+		E0B2903A228C0BF70078859A /* BuryingPointAliLogGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuryingPointAliLogGroup.m; sourceTree = "<group>"; };
+		E0B2903C228C14ED0078859A /* Sls.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sls.pbobjc.h; sourceTree = "<group>"; };
+		E0B2903D228C14ED0078859A /* Sls.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sls.pbobjc.m; sourceTree = "<group>"; };
+		E0B2903E228C14ED0078859A /* sls.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.protobuf; path = sls.proto; sourceTree = "<group>"; };
+		E0B29045228C1F010078859A /* BuryingPointTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuryingPointTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0B29047228C1F020078859A /* BuryingPointTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuryingPointTests.m; sourceTree = "<group>"; };
+		E0B29049228C1F020078859A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0B29055228CEF300078859A /* BuryingPointDBTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuryingPointDBTest.m; sourceTree = "<group>"; };
+		E0B2905E228D78E10078859A /* NSData+BuryingPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+BuryingPoint.h"; sourceTree = "<group>"; };
+		E0B2905F228D78E10078859A /* NSData+BuryingPoint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+BuryingPoint.m"; sourceTree = "<group>"; };
+		E0B29061228D7B600078859A /* NSString+BuryingPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+BuryingPoint.h"; sourceTree = "<group>"; };
+		E0B29062228D7B600078859A /* NSString+BuryingPoint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+BuryingPoint.m"; sourceTree = "<group>"; };
+		E0B387EC2267216500C3502A /* BuryingPointLogUploadStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuryingPointLogUploadStrategy.m; sourceTree = "<group>"; };
+		E0B387ED2267216500C3502A /* BuryingPointUploadPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuryingPointUploadPlugin.m; sourceTree = "<group>"; };
+		E0B388002267216500C3502A /* MethodSwizzingPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodSwizzingPlugin.m; sourceTree = "<group>"; };
+		E0B388012267216500C3502A /* MethodSwizzingPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodSwizzingPlugin.h; sourceTree = "<group>"; };
+		E0B388062267216500C3502A /* BuryingPointEventModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuryingPointEventModel.m; sourceTree = "<group>"; };
+		E0B388072267216500C3502A /* BuryingPointBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuryingPointBaseModel.h; sourceTree = "<group>"; };
+		E0B388082267216500C3502A /* BuryingPointRequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuryingPointRequestModel.m; sourceTree = "<group>"; };
+		E0B388092267216500C3502A /* BuryingPointPageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuryingPointPageModel.h; sourceTree = "<group>"; };
+		E0B3880A2267216500C3502A /* BuryingPointBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuryingPointBaseModel.m; sourceTree = "<group>"; };
+		E0B3880B2267216500C3502A /* BuryingPointEventModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuryingPointEventModel.h; sourceTree = "<group>"; };
+		E0B3880C2267216500C3502A /* BuryingPointRequestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuryingPointRequestModel.h; sourceTree = "<group>"; };
+		E0B3880D2267216500C3502A /* BuryingPointPageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuryingPointPageModel.m; sourceTree = "<group>"; };
+		E0B3880E2267216500C3502A /* BuryingPointUploadPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuryingPointUploadPlugin.h; sourceTree = "<group>"; };
+		E0B388102267216500C3502A /* BuryingPointFMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuryingPointFMDB.h; sourceTree = "<group>"; };
+		E0B388142267216500C3502A /* BuryingPointDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuryingPointDataBase.m; sourceTree = "<group>"; };
+		E0B388162267216500C3502A /* BuryingPointFMDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuryingPointFMDB.m; sourceTree = "<group>"; };
+		E0B388172267216500C3502A /* BuryingPointDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuryingPointDataBase.h; sourceTree = "<group>"; };
+		E0B388182267216500C3502A /* BuryingPointLogUploadStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuryingPointLogUploadStrategy.h; sourceTree = "<group>"; };
+		E0B3883422677D9700C3502A /* BuryingPointInterfaceLogCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuryingPointInterfaceLogCache.h; sourceTree = "<group>"; };
+		E0B3883522677D9700C3502A /* BuryingPointConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuryingPointConfigure.m; sourceTree = "<group>"; };
+		E0B3883822677D9700C3502A /* BuryingPointMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuryingPointMonitor.m; sourceTree = "<group>"; };
+		E0B3883922677D9700C3502A /* BuryingPointNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuryingPointNotification.h; sourceTree = "<group>"; };
+		E0B3883A22677D9700C3502A /* BuryingPointConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuryingPointConfigure.h; sourceTree = "<group>"; };
+		E0B3883B22677D9700C3502A /* BuryingPointInterfaceLogCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuryingPointInterfaceLogCache.m; sourceTree = "<group>"; };
+		E0B3883D22677D9700C3502A /* BuryingPointNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuryingPointNotification.m; sourceTree = "<group>"; };
+		E0B3883E22677D9700C3502A /* BuryingPointMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuryingPointMonitor.h; sourceTree = "<group>"; };
+		E0B38847226805F500C3502A /* BuryingPointServerTimestamp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuryingPointServerTimestamp.h; sourceTree = "<group>"; };
+		E0B38848226805F500C3502A /* BuryingPointServerTimestamp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuryingPointServerTimestamp.m; sourceTree = "<group>"; };
+		E0B3884B2268502600C3502A /* UINavigationController+BuryingPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+BuryingPoint.m"; sourceTree = "<group>"; };
+		E0B3884C2268502600C3502A /* UIGestureRecognizer+BuryingPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+BuryingPoint.h"; sourceTree = "<group>"; };
+		E0B3884D2268502600C3502A /* UITableView+BuryingPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+BuryingPoint.h"; sourceTree = "<group>"; };
+		E0B3884E2268502600C3502A /* UIViewController+BuryingPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BuryingPoint.h"; sourceTree = "<group>"; };
+		E0B3884F2268502600C3502A /* UIControl+BuryingPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+BuryingPoint.m"; sourceTree = "<group>"; };
+		E0B388512268502600C3502A /* UINavigationController+BuryingPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+BuryingPoint.h"; sourceTree = "<group>"; };
+		E0B388522268502600C3502A /* UIGestureRecognizer+BuryingPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+BuryingPoint.m"; sourceTree = "<group>"; };
+		E0B388532268502600C3502A /* UIViewController+BuryingPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BuryingPoint.m"; sourceTree = "<group>"; };
+		E0B388542268502600C3502A /* UITableView+BuryingPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+BuryingPoint.m"; sourceTree = "<group>"; };
+		E0B388562268502600C3502A /* UIControl+BuryingPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+BuryingPoint.h"; sourceTree = "<group>"; };
+		E0B3885D2268583B00C3502A /* UIApplication+BuryingPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+BuryingPoint.h"; sourceTree = "<group>"; };
+		E0B3885E2268583B00C3502A /* UIApplication+BuryingPoint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+BuryingPoint.m"; sourceTree = "<group>"; };
+		E0CF679B2293E13D00F8F847 /* BuryingPointAliLogConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuryingPointAliLogConst.h; sourceTree = "<group>"; };
+		E0CF679C2293ECAF00F8F847 /* BuryingPointMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuryingPointMacro.h; sourceTree = "<group>"; };
+		E0CF679D2293FFF900F8F847 /* BuryingPoint.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BuryingPoint.pch; path = Public/BuryingPoint/BuryingPoint.pch; sourceTree = SOURCE_ROOT; };
+		E0FDF4C92256097D00351E3C /* SecondController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondController.h; sourceTree = "<group>"; };
+		E0FDF4CA2256097D00351E3C /* SecondController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondController.m; sourceTree = "<group>"; };
+		E67F44854BABED93895684B3 /* libPods-BuryingPoint.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuryingPoint.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8E9689D95CAB26016C9C6E /* Pods-BuryingPoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuryingPoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BuryingPoint/Pods-BuryingPoint.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E05EC60722487C090043B18C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7040665E06FC657F0733F32A /* libPods-BuryingPoint.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0B29042228C1F010078859A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B124A249E619E597158471A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB8E9689D95CAB26016C9C6E /* Pods-BuryingPoint.debug.xcconfig */,
+				809356ACA9452811454CB5CD /* Pods-BuryingPoint.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A79DD51A07067DB2C16046B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E67F44854BABED93895684B3 /* libPods-BuryingPoint.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E05EC60122487C080043B18C = {
+			isa = PBXGroup;
+			children = (
+				E05EC60C22487C090043B18C /* BuryingPoint */,
+				E0B29046228C1F020078859A /* BuryingPointTests */,
+				E05EC60B22487C090043B18C /* Products */,
+				5B124A249E619E597158471A /* Pods */,
+				A79DD51A07067DB2C16046B5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E05EC60B22487C090043B18C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E05EC60A22487C090043B18C /* BuryingPoint.app */,
+				E0B29045228C1F010078859A /* BuryingPointTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E05EC60C22487C090043B18C /* BuryingPoint */ = {
+			isa = PBXGroup;
+			children = (
+				E0B387E92267216500C3502A /* BuryingPoint */,
+				E05EC60D22487C090043B18C /* AppDelegate.h */,
+				E05EC60E22487C090043B18C /* AppDelegate.m */,
+				E05EC61022487C090043B18C /* ViewController.h */,
+				E05EC61122487C090043B18C /* ViewController.m */,
+				E04396842264531E001B3902 /* TestModel.h */,
+				E04396852264531E001B3902 /* TestModel.m */,
+				E0FDF4C92256097D00351E3C /* SecondController.h */,
+				E0FDF4CA2256097D00351E3C /* SecondController.m */,
+				E0CF679D2293FFF900F8F847 /* BuryingPoint.pch */,
+				E05EC61322487C090043B18C /* Main.storyboard */,
+				E05EC61622487C0A0043B18C /* Assets.xcassets */,
+				E05EC61822487C0A0043B18C /* LaunchScreen.storyboard */,
+				E05EC61B22487C0A0043B18C /* Info.plist */,
+				E05EC61C22487C0A0043B18C /* main.m */,
+			);
+			path = BuryingPoint;
+			sourceTree = "<group>";
+		};
+		E0B29046228C1F020078859A /* BuryingPointTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0B29047228C1F020078859A /* BuryingPointTests.m */,
+				E0B29055228CEF300078859A /* BuryingPointDBTest.m */,
+				E0B29049228C1F020078859A /* Info.plist */,
+			);
+			path = BuryingPointTests;
+			sourceTree = "<group>";
+		};
+		E0B387E92267216500C3502A /* BuryingPoint */ = {
+			isa = PBXGroup;
+			children = (
+				E0CF679A2293DD3000F8F847 /* Const */,
+				E0B3883322677D9700C3502A /* Base */,
+				E0B3884A2268502600C3502A /* Category */,
+				E0B3880F2267216500C3502A /* DB */,
+				E0B388052267216500C3502A /* Model */,
+				E0B387FF2267216500C3502A /* Util */,
+				E0B38831226721A400C3502A /* Upload */,
+			);
+			name = BuryingPoint;
+			path = Public/BuryingPoint;
+			sourceTree = SOURCE_ROOT;
+		};
+		E0B387FF2267216500C3502A /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				E0B3883922677D9700C3502A /* BuryingPointNotification.h */,
+				E0B3883D22677D9700C3502A /* BuryingPointNotification.m */,
+				E0B38847226805F500C3502A /* BuryingPointServerTimestamp.h */,
+				E0B38848226805F500C3502A /* BuryingPointServerTimestamp.m */,
+				E0B388012267216500C3502A /* MethodSwizzingPlugin.h */,
+				E0B388002267216500C3502A /* MethodSwizzingPlugin.m */,
+				E0B2905E228D78E10078859A /* NSData+BuryingPoint.h */,
+				E0B2905F228D78E10078859A /* NSData+BuryingPoint.m */,
+				E0B29061228D7B600078859A /* NSString+BuryingPoint.h */,
+				E0B29062228D7B600078859A /* NSString+BuryingPoint.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		E0B388052267216500C3502A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E0B388072267216500C3502A /* BuryingPointBaseModel.h */,
+				E0B3880A2267216500C3502A /* BuryingPointBaseModel.m */,
+				E0B3880B2267216500C3502A /* BuryingPointEventModel.h */,
+				E0B388062267216500C3502A /* BuryingPointEventModel.m */,
+				E0B388092267216500C3502A /* BuryingPointPageModel.h */,
+				E0B3880D2267216500C3502A /* BuryingPointPageModel.m */,
+				E0B3880C2267216500C3502A /* BuryingPointRequestModel.h */,
+				E0B388082267216500C3502A /* BuryingPointRequestModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E0B3880F2267216500C3502A /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				E0B388172267216500C3502A /* BuryingPointDataBase.h */,
+				E0B388142267216500C3502A /* BuryingPointDataBase.m */,
+				E0B388102267216500C3502A /* BuryingPointFMDB.h */,
+				E0B388162267216500C3502A /* BuryingPointFMDB.m */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		E0B38831226721A400C3502A /* Upload */ = {
+			isa = PBXGroup;
+			children = (
+				E0B3880E2267216500C3502A /* BuryingPointUploadPlugin.h */,
+				E0B387ED2267216500C3502A /* BuryingPointUploadPlugin.m */,
+				E0B29039228C0BF70078859A /* BuryingPointAliLogGroup.h */,
+				E0B2903A228C0BF70078859A /* BuryingPointAliLogGroup.m */,
+				E0B2903C228C14ED0078859A /* Sls.pbobjc.h */,
+				E0B2903D228C14ED0078859A /* Sls.pbobjc.m */,
+				E0B2903E228C14ED0078859A /* sls.proto */,
+			);
+			path = Upload;
+			sourceTree = "<group>";
+		};
+		E0B3883322677D9700C3502A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E0B3883A22677D9700C3502A /* BuryingPointConfigure.h */,
+				E0B3883522677D9700C3502A /* BuryingPointConfigure.m */,
+				E0B3883422677D9700C3502A /* BuryingPointInterfaceLogCache.h */,
+				E0B3883B22677D9700C3502A /* BuryingPointInterfaceLogCache.m */,
+				E0B3883E22677D9700C3502A /* BuryingPointMonitor.h */,
+				E0B3883822677D9700C3502A /* BuryingPointMonitor.m */,
+				E0B388182267216500C3502A /* BuryingPointLogUploadStrategy.h */,
+				E0B387EC2267216500C3502A /* BuryingPointLogUploadStrategy.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		E0B3884A2268502600C3502A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E0B3885D2268583B00C3502A /* UIApplication+BuryingPoint.h */,
+				E0B3885E2268583B00C3502A /* UIApplication+BuryingPoint.m */,
+				E0B388562268502600C3502A /* UIControl+BuryingPoint.h */,
+				E0B3884F2268502600C3502A /* UIControl+BuryingPoint.m */,
+				E0B3884C2268502600C3502A /* UIGestureRecognizer+BuryingPoint.h */,
+				E0B388522268502600C3502A /* UIGestureRecognizer+BuryingPoint.m */,
+				E0B388512268502600C3502A /* UINavigationController+BuryingPoint.h */,
+				E0B3884B2268502600C3502A /* UINavigationController+BuryingPoint.m */,
+				E0B3884D2268502600C3502A /* UITableView+BuryingPoint.h */,
+				E0B388542268502600C3502A /* UITableView+BuryingPoint.m */,
+				E0B3884E2268502600C3502A /* UIViewController+BuryingPoint.h */,
+				E0B388532268502600C3502A /* UIViewController+BuryingPoint.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		E0CF679A2293DD3000F8F847 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				E0CF679C2293ECAF00F8F847 /* BuryingPointMacro.h */,
+				E0CF679B2293E13D00F8F847 /* BuryingPointAliLogConst.h */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E05EC60922487C090043B18C /* BuryingPoint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E05EC62022487C0A0043B18C /* Build configuration list for PBXNativeTarget "BuryingPoint" */;
+			buildPhases = (
+				0581E1C3EFB74BD03E56D51A /* [CP] Check Pods Manifest.lock */,
+				E05EC60622487C090043B18C /* Sources */,
+				E05EC60722487C090043B18C /* Frameworks */,
+				E05EC60822487C090043B18C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuryingPoint;
+			productName = BuryingPoint;
+			productReference = E05EC60A22487C090043B18C /* BuryingPoint.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0B29044228C1F010078859A /* BuryingPointTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0B2904C228C1F020078859A /* Build configuration list for PBXNativeTarget "BuryingPointTests" */;
+			buildPhases = (
+				E0B29041228C1F010078859A /* Sources */,
+				E0B29042228C1F010078859A /* Frameworks */,
+				E0B29043228C1F010078859A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0B2904B228C1F020078859A /* PBXTargetDependency */,
+			);
+			name = BuryingPointTests;
+			productName = BuryingPointTests;
+			productReference = E0B29045228C1F010078859A /* BuryingPointTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E05EC60222487C080043B18C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "wesk痕";
+				TargetAttributes = {
+					E05EC60922487C090043B18C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					E0B29044228C1F010078859A = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = E05EC60922487C090043B18C;
+					};
+				};
+			};
+			buildConfigurationList = E05EC60522487C080043B18C /* Build configuration list for PBXProject "BuryingPoint" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E05EC60122487C080043B18C;
+			productRefGroup = E05EC60B22487C090043B18C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E05EC60922487C090043B18C /* BuryingPoint */,
+				E0B29044228C1F010078859A /* BuryingPointTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E05EC60822487C090043B18C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E05EC61A22487C0A0043B18C /* LaunchScreen.storyboard in Resources */,
+				E05EC61722487C0A0043B18C /* Assets.xcassets in Resources */,
+				E05EC61522487C090043B18C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0B29043228C1F010078859A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0581E1C3EFB74BD03E56D51A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BuryingPoint-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E05EC60622487C090043B18C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0B29060228D78E10078859A /* NSData+BuryingPoint.m in Sources */,
+				E0B3885A2268502600C3502A /* UIViewController+BuryingPoint.m in Sources */,
+				E0B388292267216500C3502A /* BuryingPointRequestModel.m in Sources */,
+				E0B3882F2267216500C3502A /* BuryingPointFMDB.m in Sources */,
+				E05EC61222487C090043B18C /* ViewController.m in Sources */,
+				E0FDF4CB2256097E00351E3C /* SecondController.m in Sources */,
+				E0B3885F2268583B00C3502A /* UIApplication+BuryingPoint.m in Sources */,
+				E0B388252267216500C3502A /* MethodSwizzingPlugin.m in Sources */,
+				E0B3881D2267216500C3502A /* BuryingPointUploadPlugin.m in Sources */,
+				E0B38849226805F500C3502A /* BuryingPointServerTimestamp.m in Sources */,
+				E0B388572268502600C3502A /* UINavigationController+BuryingPoint.m in Sources */,
+				E04396862264531E001B3902 /* TestModel.m in Sources */,
+				E0B3884122677D9700C3502A /* BuryingPointInterfaceLogCache.m in Sources */,
+				E05EC61D22487C0A0043B18C /* main.m in Sources */,
+				E0B388592268502600C3502A /* UIGestureRecognizer+BuryingPoint.m in Sources */,
+				E0B388282267216500C3502A /* BuryingPointEventModel.m in Sources */,
+				E0B3883F22677D9700C3502A /* BuryingPointConfigure.m in Sources */,
+				E0B3884022677D9700C3502A /* BuryingPointMonitor.m in Sources */,
+				E05EC60F22487C090043B18C /* AppDelegate.m in Sources */,
+				E0B3884322677D9700C3502A /* BuryingPointNotification.m in Sources */,
+				E0B3882A2267216500C3502A /* BuryingPointBaseModel.m in Sources */,
+				E0B3885B2268502600C3502A /* UITableView+BuryingPoint.m in Sources */,
+				E0B3881C2267216500C3502A /* BuryingPointLogUploadStrategy.m in Sources */,
+				E0B3882B2267216500C3502A /* BuryingPointPageModel.m in Sources */,
+				E0B3882E2267216500C3502A /* BuryingPointDataBase.m in Sources */,
+				E0B29040228C14EE0078859A /* sls.proto in Sources */,
+				E0B388582268502600C3502A /* UIControl+BuryingPoint.m in Sources */,
+				E0B2903B228C0BF70078859A /* BuryingPointAliLogGroup.m in Sources */,
+				E0B2903F228C14EE0078859A /* Sls.pbobjc.m in Sources */,
+				E0B29063228D7B600078859A /* NSString+BuryingPoint.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0B29041228C1F010078859A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0B29048228C1F020078859A /* BuryingPointTests.m in Sources */,
+				E0B29056228CEF300078859A /* BuryingPointDBTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0B2904B228C1F020078859A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E05EC60922487C090043B18C /* BuryingPoint */;
+			targetProxy = E0B2904A228C1F020078859A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E05EC61322487C090043B18C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E05EC61422487C090043B18C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E05EC61822487C0A0043B18C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E05EC61922487C0A0043B18C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E05EC61E22487C0A0043B18C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E05EC61F22487C0A0043B18C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E05EC62122487C0A0043B18C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB8E9689D95CAB26016C9C6E /* Pods-BuryingPoint.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = V9DDRLH7NU;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/weskhen/Documents/life/BuryingPoint/Public/BuryingPoint/BuryingPoint.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"TEST=1",
+				);
+				INFOPLIST_FILE = BuryingPoint/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wesk.BuryingPoint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E05EC62222487C0A0043B18C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 809356ACA9452811454CB5CD /* Pods-BuryingPoint.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9DDRLH7NU;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/weskhen/Documents/life/BuryingPoint/Public/BuryingPoint/BuryingPoint.pch;
+				INFOPLIST_FILE = BuryingPoint/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wesk.BuryingPoint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E0B2904D228C1F020078859A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B776HGZTR8;
+				INFOPLIST_FILE = BuryingPointTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wesk.BuryingPointTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuryingPoint.app/BuryingPoint";
+			};
+			name = Debug;
+		};
+		E0B2904E228C1F020078859A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B776HGZTR8;
+				INFOPLIST_FILE = BuryingPointTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wesk.BuryingPointTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuryingPoint.app/BuryingPoint";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E05EC60522487C080043B18C /* Build configuration list for PBXProject "BuryingPoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E05EC61E22487C0A0043B18C /* Debug */,
+				E05EC61F22487C0A0043B18C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E05EC62022487C0A0043B18C /* Build configuration list for PBXNativeTarget "BuryingPoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E05EC62122487C0A0043B18C /* Debug */,
+				E05EC62222487C0A0043B18C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0B2904C228C1F020078859A /* Build configuration list for PBXNativeTarget "BuryingPointTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0B2904D228C1F020078859A /* Debug */,
+				E0B2904E228C1F020078859A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E05EC60222487C080043B18C /* Project object */;
+}

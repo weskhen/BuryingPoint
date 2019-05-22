@@ -1,0 +1,6 @@
+framework module LBaseDB {
+  umbrella header "LBaseDB-umbrella.h"
+
+  export *
+  module * { export * }
+}

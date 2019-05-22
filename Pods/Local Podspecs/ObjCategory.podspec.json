@@ -1,0 +1,39 @@
+{
+  "name": "ObjCategory",
+  "version": "0.0.2",
+  "summary": "ObjCategory 基础分类",
+  "description": "ObjCategory 基础分类dd",
+  "homepage": "https://gitee.com/wesk/ObjCategory.git",
+  "license": "Code is MIT, then custom font licenses",
+  "authors": {
+    "wujian": "wujian516411567@163.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://gitee.com/wesk/ObjCategory.git",
+    "tag": "0.0.2"
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "QuartzCore"
+  ],
+  "requires_arc": true,
+  "dependencies": {
+    "ConstConfig": [
+      "~> 0.0.1"
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "ObjCategory",
+      "source_files": "ObjCategory/BaseObjCategory/*.{h,m}"
+    },
+    {
+      "name": "Util",
+      "source_files": "ObjCategory/Util/**/*"
+    }
+  ]
+}

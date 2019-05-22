@@ -1,0 +1,23 @@
+//
+//  BuryingPoint.pch
+//  BuryingPoint
+//
+//  Created by wujian on 2019/5/17.
+//  Copyright © 2019 wesk痕. All rights reserved.
+//
+
+#ifndef BuryingPoint_pch
+#define BuryingPoint_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//日志切换开关
+#if DEBUG
+#define NSLog(...) NSLog(__VA_ARGS__)
+
+#else
+#define NSLog(...)
+#endif
+
+#endif /* BuryingPoint_pch */

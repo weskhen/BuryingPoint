@@ -1,0 +1,31 @@
+PODS:
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - LBaseDB (0.0.3):
+    - FMDB
+    - YYModel
+  - Protobuf (3.6.1)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - LBaseDB (= 0.0.3)
+  - Protobuf (~> 3.6.1)
+
+SPEC REPOS:
+  https://gitee.com/weskTeam/my-repo:
+    - LBaseDB
+  https://github.com/cocoapods/specs.git:
+    - FMDB
+    - Protobuf
+    - YYModel
+
+SPEC CHECKSUMS:
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  LBaseDB: ea17240b96ab8377af715fcd9c32177977c16748
+  Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 1a8d8f5370ea22076446b5557bbdc46b616167d6
+
+COCOAPODS: 1.6.1

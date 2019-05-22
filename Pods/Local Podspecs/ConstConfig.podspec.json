@@ -1,0 +1,26 @@
+{
+  "name": "ConstConfig",
+  "version": "0.0.1",
+  "summary": "ConstConfig 基础宏定义",
+  "description": "ConstConfig 基础宏定义dd",
+  "homepage": "https://gitee.com/wesk/ConstConfig.git",
+  "license": "Code is MIT, then custom font licenses",
+  "authors": {
+    "wujian": "wujian516411567@163.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://gitee.com/wesk/ConstConfig.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "ConstConfig/*.{h,m,c}",
+  "requires_arc": true,
+  "subspecs": [
+    {
+      "name": "Resource",
+      "source_files": "ConstConfig/Resource/*.{h,m}"
+    }
+  ]
+}
