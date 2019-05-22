@@ -48,11 +48,11 @@ typedef NS_ENUM(NSUInteger, BuryingPointAliLogType) {
 };
 
 
-#pragma mark - 以下需要根据阿里云配置项定义的
-#define AliLogDefaultEndPoint @"cn-hangzhou.log.aliyuncs.com"
-#define AliLogDefaultProject @"******"
-#define AliLogDefaultAccessKeyID @"******"
-#define AliLogDefaultAccessKeySecret @"******"
-#define AliLogDefaultLogstores @"****"
+#pragma mark - 以下需要根据阿里云配置项赋值
+static NSString * AliLogDefaultEndPoint = @""; //cn-hangzhou.log.aliyuncs.com
+static NSString * AliLogDefaultProject = @"";
+static NSString * AliLogDefaultAccessKeyID = @"";
+static NSString * AliLogDefaultAccessKeySecret = @"";
+static NSString * AliLogDefaultLogstores = @"";
 
 #endif /* BuryingPointAliLogConst_h */
