@@ -9,17 +9,17 @@
 Pod::Spec.new do |s|
 
   s.name         = "BuryingPoint"
-  s.version      = "0.0.5"
+  s.version      = "0.0.1"
   s.summary      = "埋点封装+阿里云日志数据上报集成"
   s.description  = <<-DESC
   无痕埋点封装和阿里云日志数据上报集成
                      DESC
 
-  s.homepage     = "https://gitee.com/weskTeam/BuryingPoint.git"
+  s.homepage     = "https://github.com/weskhen/BuryingPoint.git"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author             = { "wujian" => "wujian516411567@163.com" } 
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://gitee.com/weskTeam/BuryingPoint.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/weskhen/BuryingPoint.git", :tag => "#{s.version}" }
   
   s.ios.deployment_target = '9.0'
   s.module_name = 'BuryingPoint'
